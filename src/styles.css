@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f8f8f8;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.rental-form fieldset {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.rental-form legend {
+  font-weight: bold;
+}
+
+.rental-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rental-form input[type="text"],
+.rental-form input[type="date"],
+.rental-form input[type="month"],
+.rental-form input[type="email"],
+.rental-form input[type="number"],
+.rental-form input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

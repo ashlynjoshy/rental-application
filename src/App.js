@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Form from './Form';
+import supabase from './supabaseClient';
 
+/*
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,19 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+function App() {
+  return (
+    <div className="app-container">
+      <h1>Rental Application Form</h1>
+      <Form />
     </div>
   );
 }
